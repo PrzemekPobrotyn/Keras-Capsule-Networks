@@ -114,7 +114,7 @@ if __name__ == '__main__':
         verbose=1,
     )
 
-    # get and compile the newtork
+    # get and compile the network
     capsnet_train, capsnet_inference = get_capsule_network()
 
     capsnet_train.compile(
